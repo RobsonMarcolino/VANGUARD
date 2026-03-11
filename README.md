@@ -1,5 +1,7 @@
 # Vanguard Landing Page Clone
 
+![Vanguard Landing Page Screenshot](./public/screenshot.png)
+
 Uma recriação moderna, responsiva e interativa da landing page da empresa Vanguard. Focada em performance e animações fluidas, essa interface foi construída para demonstrar práticas avançadas de UI/UX em desenvolvimento web.
 
 ## 🚀 Tecnologias Utilizadas

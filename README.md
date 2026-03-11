@@ -1,16 +1,18 @@
-# React + Vite
+# Vanguard Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma recriação moderna, responsiva e interativa da landing page da empresa Vanguard. Focada em performance e animações fluidas, essa interface foi construída para demonstrar práticas avançadas de UI/UX em desenvolvimento web.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **[React](https://reactjs.org/) + [Vite](https://vitejs.dev/)**: Para uma base rápida e modular.
+- **[Tailwind CSS v4](https://tailwindcss.com/)**: Para estilização utilitária e design responsivo.
+- **[Framer Motion](https://www.framer.com/motion/)**: Para orquestrar as animações de entrada e os textos rotativos dinâmicos.
+- **[Lucide React](https://lucide.dev/)**: Para ícones leves e consistentes.
 
-## React Compiler
+## ✨ Destaques do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section Dinâmica**: Título com um componente de texto rotativo animado (`RotatingText`), criando grande impacto visual assim que o usuário acessa o site.
+- **Grid de Hexágonos**: Layout customizado e estilizado com recortes geométricos (`clip-path`), com efeitos de hover complexos e responsividade para dispositivos móveis.
+- **Glassmorphism**: Uso de fundos translúcidos (`backdrop-blur`) no Footer e botões para garantir uma estética premium e moderna.
+- **Totalmente Responsivo**: O layout se adapta perfeitamente em telas pequenas (smartphones), médias (tablets) e grandes (desktops).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
